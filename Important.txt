@@ -1,0 +1,23 @@
+.pricing .container .box:nth-of-type(2){
+  transform: translateY(-25px);
+}
+.pricing .container .box:nth-of-type(2) h3::after{
+  content: "Most Popular";
+  position: absolute;
+  background-color: var(--main-color);
+  color: white;
+  transform: rotate(90deg);
+  width: 116px;
+  font-size: 18px;
+  padding: 9px 10px;
+  top: 49px;
+  right: -29px;
+}
+.pricing .container .box:nth-of-type(2) h3::before{
+  content: "";
+  position: absolute;
+  border: 19.5px solid red;
+  border-color: var(--main-color) var(--main-color) transparent var(--main-color);
+  top: 122px;
+  right: 20px;
+}
